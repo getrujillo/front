@@ -1,0 +1,35 @@
+.dashboard-header {
+  background: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-mid) 45%, var(--blue-mid) 100%);
+  color: var(--white);
+  padding-bottom: 50px;
+}
+.dashboard-header__content { padding: 10px 6vw 0; }
+.dashboard-header__content h1 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  margin: 10px 0 4px;
+}
+.dashboard-header__content p { opacity: 0.8; margin: 0; }
+
+.dashboard-body {
+  padding: 50px 6vw;
+  max-width: 720px;
+}
+.dashboard-body code {
+  background: var(--gray-bg);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.role-pill {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  margin-bottom: 12px;
+}
